@@ -1,0 +1,107 @@
+.CartBody {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking */
+}
+.CartBody hr {
+    border: 1px solid #81667f; /* Sets the color and thickness of the horizontal rule */
+    border: none; /* Optional: Remove default border if needed */
+    height: 1px; /* Adjust height if necessary */
+    background-color: #81667f; /* Use this to set the color if border-color is not preferred */
+}
+
+
+.CartBody h1 {
+    color: #81667f;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+.CartBody h2 {
+    color: rgb(192, 187, 187);
+    margin: 0;
+    padding: 0;
+}
+
+.makeItSpaced {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topOfCart{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+}
+
+
+.topOfCart button {
+    background-color: transparent;
+    color: #81667f;
+    border: transparent;
+    font-size: large;
+    cursor: pointer;
+}
+
+.inCart {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.discriptionOfTheProduct {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.discriptionOfTheProduct img {
+    width: 70%;
+    height: auto;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    color: #81667f;
+    font-size: xx-small;
+    gap: 10px;
+    transform: translateX(-20px);
+}
+
+
+
+.row button {
+    cursor: pointer;
+    width: fit-content;
+    background-color: transparent;
+    border :transparent;
+    color: #81667f;
+    padding: 0;
+}
+
+.bottomofTheCart {
+    width: 100%;
+    margin-top: auto; /* Pushes this section to the bottom */
+    padding-bottom: 40px;
+    border-top: 1px solid #ddd; /* Optional: Adds a border for separation */
+}
+
+.label {
+    width : 40px ;
+    height :fit-content;
+    border : solid #81667f; 
+    display : flex;
+    justify-content : center;
+    align-content: center;
+    font-size: x-large;
+    color: #81667f;
+} 

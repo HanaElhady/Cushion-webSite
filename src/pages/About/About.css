@@ -1,0 +1,39 @@
+
+.AboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    transform: translateX(-50px);
+    height: 85% ;
+
+}
+
+.styleHero  {
+    position: absolute;
+    z-index: 9;
+};
+
+.styleImage  { 
+    position: absolute; 
+    height: 100%;
+    width: 60%; 
+};
+
+
+@media (max-width: 500px) {
+    .body {
+        height: 900px; 
+    }
+
+    .AboutContainer {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .styleHero , .styleImage {
+    position: static; 
+    width: 90%; 
+    z-index: auto; 
+    }
+}

@@ -1,0 +1,30 @@
+.relatedProducts {
+    width : 100% ;
+    height : 100% ;
+    display : flex;
+    justify-content : center;
+    align-items :flex-start;
+    position :relative;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.relatedTitle {
+    padding-left: 1%;
+    padding-bottom: 2%;
+    font-size: smaller;
+    padding-top: 10%;
+}
+
+.linkStyle {
+position : absolute;
+display :flex;
+justify-content : flex-end;
+width : 100%;
+height : auto;
+padding-bottom : 20px;
+padding-right :50px;
+bottom: 0;
+right: 0;
+}

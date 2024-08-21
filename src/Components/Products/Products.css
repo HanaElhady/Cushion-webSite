@@ -1,0 +1,47 @@
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px; 
+    padding: 5px; 
+}
+
+.Productscontainer {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;  
+    
+}
+
+.cushionImage {
+    overflow: hidden; 
+    display: inline-block; 
+    position: relative; 
+}
+.cushionImage img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+    cursor: pointer;
+}
+
+.cushionImage img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.CushionLink a {
+    color: #81667f;
+    text-decoration: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.price {
+    color: grey;
+    font-size: 0.55em; 
+    cursor: pointer;
+}

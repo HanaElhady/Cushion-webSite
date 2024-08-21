@@ -1,0 +1,6 @@
+
+export const CUSHION_ADDED = "CUSHION_ADDED";
+export const CUSHION_REMOVED = "CUSHION_REMOVED";
+
+
+

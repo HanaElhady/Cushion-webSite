@@ -1,0 +1,65 @@
+.section {
+    padding: 3%;
+    width: auto;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    color: #81667f;
+    font-size: x-small;
+}
+
+.sectionParag {
+    width: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    line-height: 150%;
+}
+
+.sectionParag p {
+    margin: 2%;
+    display: block;  
+    margin-inline-end: 20px;
+    letter-spacing: 2px;
+}
+
+.section button {
+    border-radius: 50px;
+    border: 2px solid #b08ead; /* Ensure the border is visible */
+    background-color: white;
+    width: auto;
+    height: auto; /* Allow the button to adjust based on padding */
+    color: #b08ead;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    text-align: center; /* Center text inside the button */
+    margin-top: 20px; /* Optional: Add space above the button */
+}
+
+.section button:hover {
+    background-color: #b08ead;
+    color: white;
+    border-color: #b08ead;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 1%;
+    gap : 1%;
+    height: auto;
+    width: auto;
+}
+
+
+@media (max-width: 500px ) {
+    .cards {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sectionParag{
+        width : 100%;
+    }
+}

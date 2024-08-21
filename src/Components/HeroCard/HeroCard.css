@@ -1,0 +1,37 @@
+
+.Hero-Card {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #b08ead;
+    width: 350px;
+    height: 350px;
+}
+
+.Hero-Card a {
+    text-decoration: none; /* Optional: removes underline from link */
+    color: inherit; /* Optional: inherits color from parent */
+    cursor: pointer;
+  }
+  
+  .Hero-Card a:after {
+    content: ''; /* Required for the pseudo-element */
+    width : 75px;
+    display: block; /* Makes the pseudo-element render as a block element */
+    border-bottom: 4px solid white; /* Customize the border style as needed */
+    padding-bottom: 7px; /* Adds space below the border */
+  }
+
+  .Hero-Card h1 {
+    font-size: 40px;
+  }
+  
+
+  @media (max-width: 500px) {
+    .Hero-Card {
+      width: 64vw;
+      height: 50vh;
+    }
+  }

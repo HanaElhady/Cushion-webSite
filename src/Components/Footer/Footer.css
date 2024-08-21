@@ -1,0 +1,64 @@
+.color {
+     color:white
+}
+
+.media {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.adjust{
+    display: flex;
+    flex-direction: row;
+}
+
+.adjust a {
+    font-size: smaller;
+}
+
+.circleAdjustement {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.circleAdjustement:hover {
+   opacity: 0.7;
+}
+
+.circleAdjustement svg {
+    font-size: smaller;
+}
+
+.nav-bar-link-adjust:hover {
+transform: none;
+border-bottom: 0px;
+padding-bottom: 0px;
+}
+.nav-bar-link-adjust a {
+    color: white;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #9c7c9a; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(-20px);
+}
+
+.square div {
+   font-size: medium;
+   rotate: -90deg;
+}
+
+.square:hover {
+    opacity: 0.7;
+}
